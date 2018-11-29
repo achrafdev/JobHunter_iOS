@@ -10,60 +10,31 @@ import Foundation
 
 class Company {
     //fields
-    private var _id: Int
-    var id: Int {
-        get {
-            return _id
-        } set {
-            _id = newValue
-        }
-    }
+    var id: Int?
     
-    private var _name: String
-    var name: String {
-        get {
-            return _name
-        } set {
-            _name = newValue
-        }
-    }
+    var name: String?
     
-    private var _email: String
-    var email: String {
-        get {
-            return _email
-        } set {
-            _email = newValue
-        }
-    }
+    var email: String?
     
-    private var _description: String
-    var description: String {
-        get {
-            return _description
-        } set {
-            _description = newValue
-        }
-    }
+    var adress: String?
     
-    private var _password: String
-    var password: String {
-        get {
-            return _password
-        } set {
-            _password = newValue
-        }
-    }
+    var tel1: String?
+    
+    var tel2: String?
+    
+    var fax: String?
+    
+    var description: String?
+    
+    var size: String?
+    
+    var website: String?
+    
+    var year_fondation: String?
+    
+    var password: String?
     
     
     //constructor
-    
-    init(id: Int, name: String, email: String, description: String, password: String) {
-        self._id = id
-        self._name = name
-        self._email = email
-        self._description = description
-        self._password = password
-    }
     
 }

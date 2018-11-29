@@ -9,75 +9,42 @@
 import Foundation
 
 class Applicant {
+    
     //fields
-    private var _id: Int
-    var id: Int {
-        get {
-            return _id
-        } set {
-            _id = newValue
-        }
-    }
+    var id: Int?
     
-    private var _name: String
-    var name: String {
-        get {
-            return _name
-        } set {
-            _name = newValue
-        }
-    }
+    var name: String?
     
-    private var _last_name: String
-    var last_name: String {
-        get {
-            return _last_name
-        } set {
-            _last_name = newValue
-        }
-    }
+    var last_name: String?
     
-    private var _email: String
-    var email: String {
-        get {
-            return _email
-        } set {
-            _email = newValue
-        }
-    }
+    var birth_date: String?
     
-    private var _description: String
-    var description: String {
-        get {
-            return _description
-        } set {
-            _description = newValue
-        }
-    }
+    var gender: String?
     
-    private var _password: String
-    var password: String {
-        get {
-            return _password
-        } set {
-            _password = newValue
-        }
-    }
+    var email: String?
+    
+    var adress: String?
+    
+    var tel1: String?
+    
+    var tel2: String?
+    
+    var nationality: String?
+    
+    var birth_place: String?
+    
+    var description: String?
+    
+    var referral1: String?
+    
+    var referral2: String?
+    
+    var picture: String?
+    
+    var password: String?
     
     
     //constructor
-    
-    init(id: Int, name: String, last_name: String, email: String, description: String, password: String) {
-        self._id = id
-        self._name = name
-        self._last_name = last_name
-        self._email = email
-        self._description = description
-        self._password = password
-    }
-    
-    
-    
     
     
 }

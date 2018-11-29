@@ -10,9 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var user1 = Applicant(id: 1, name: "Achraf", last_name: "Abdennadher", email: "achraf-esprit.tn", description: "Hello world", password: "0000")
     
-    var user2 = Company(id: 2, name: "Vermeg", email: "vermeg-gmail.com", description: "Hello employee", password: "1111")
+    var user1 = Applicant()
+    var user2 = Company()
     
     @IBOutlet weak var userContainer: UIView!
     
@@ -26,6 +26,20 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         //setupView()
         
+        //Creating Applicant Instance
+        user1.id = 1
+        user1.name = "Achraf"
+        user1.last_name = "Abdennadher"
+        user1.email = "achraf@esprit.tn"
+        user1.password = "0000"
+        user1.description = "Hello World"
+        
+        //Creating Company Instance
+        user2.id = 2
+        user2.name = "Vermeg"
+        user2.email = "vermeg@gmail.com"
+        user2.description = "Hello employee"
+        user2.password = "1111"
     }
     
     @IBOutlet weak var emailTextField: UITextField!

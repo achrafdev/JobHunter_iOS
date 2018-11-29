@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		DE2D615821AB3F420058FACB /* Applicant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2D615721AB3F420058FACB /* Applicant.swift */; };
 		DE2D615A21AB3F550058FACB /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2D615921AB3F550058FACB /* Company.swift */; };
-		DE2D615C21AB3F650058FACB /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2D615B21AB3F650058FACB /* Offer.swift */; };
 		DE34CA3E2198614A00B44AE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE34CA3D2198614A00B44AE2 /* AppDelegate.swift */; };
 		DE34CA402198614A00B44AE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE34CA3F2198614A00B44AE2 /* ViewController.swift */; };
 		DE34CA432198614A00B44AE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE34CA412198614A00B44AE2 /* Main.storyboard */; };
@@ -24,7 +23,6 @@
 /* Begin PBXFileReference section */
 		DE2D615721AB3F420058FACB /* Applicant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Applicant.swift; sourceTree = "<group>"; };
 		DE2D615921AB3F550058FACB /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
-		DE2D615B21AB3F650058FACB /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
 		DE34CA3A2198614A00B44AE2 /* JobHunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobHunter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE34CA3D2198614A00B44AE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE34CA3F2198614A00B44AE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +52,6 @@
 			children = (
 				DE2D615721AB3F420058FACB /* Applicant.swift */,
 				DE2D615921AB3F550058FACB /* Company.swift */,
-				DE2D615B21AB3F650058FACB /* Offer.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -186,7 +183,6 @@
 				DE34CA542198A5D300B44AE2 /* UserSignupViewController.swift in Sources */,
 				DE2D615821AB3F420058FACB /* Applicant.swift in Sources */,
 				DE34CA462198614A00B44AE2 /* JobHunter.xcdatamodeld in Sources */,
-				DE2D615C21AB3F650058FACB /* Offer.swift in Sources */,
 				DE34CA3E2198614A00B44AE2 /* AppDelegate.swift in Sources */,
 				DE2D615A21AB3F550058FACB /* Company.swift in Sources */,
 			);
