@@ -21,7 +21,7 @@
                                 <rect key="frame" x="123" y="117" width="128" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r1Z-Pd-YZD">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r1Z-Pd-YZD">
                                 <rect key="frame" x="54" y="304" width="266" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -58,7 +58,7 @@
                                     <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="XQb-DC-0wV" kind="show" id="82y-K1-bfF"/>
+                                    <action selector="signin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9gk-uc-VUV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -66,6 +66,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="S1j-aI-zno"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="r1Z-Pd-YZD" id="wEI-BP-s9K"/>
+                        <outlet property="passwordTextField" destination="sQO-nD-wM2" id="k4t-gD-hva"/>
+                        <segue destination="XQb-DC-0wV" kind="show" identifier="toApplicantSegue" id="txk-Jz-Yym"/>
+                        <segue destination="jb4-Rd-ASb" kind="show" identifier="toCompanySegue" id="cSJ-cU-UcE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
